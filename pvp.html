@@ -20,6 +20,9 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Glory:wght@100&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -56,16 +59,7 @@
         <p>Try NinjaNFT on desktop</p>
     </div>
 
-    <div class="styl" id="styl">
-        <h1>Click ⬆⬇➡⬅ to move</h1>
-    </div>
-
-    <div class="pvp" id="pvp">
-        <a href="pvp.html">
-            <img src="assets/pvp.png">
-        </a>
-        
-    </div>
+    <!-- <img id="tdr" src="assets/thunder.gif"> -->
 
     <!-- <div class="footer">
         <div class="ft">
@@ -85,17 +79,39 @@
             <a href="">WhitePaper</a>
         </div>
     </div> -->
+
+    <div class="plyrinfo">
+        <div class="l-info">
+            <h1>Player</h1>
+            <p>Normal</p>
+            <p id="plyrhp"></p>
+            
+        </div>
+        <div class="r-info">
+            <h1>NPC</h1>
+            <p>Ultra rare</p>
+            <p id="npchp"></p>
+            
+        </div>
+    </div>
+
+    <button id="atkbtn" onclick="attack()"><img src="assets/sword.png"></button>
+
     <canvas id="myCanvas" width="1300" height="700" style="border:1px solid #000000;" />   
 
-    <img id="testpic" src="assets/ninja.png" style="display: none;">
-    <img id="bg" src="assets/map2.png" style="display: none;">
+    <img id="testpic" src="assets/player.png" style="display: none;">
+    <img id="npc" src="assets/npc.png" style="display: none;">
+    <img id="lose" src="assets/pvplose.png" style="display: none;">
+    <img id="bg" src="assets/arena.png" style="display: none;">
     
     <!-- <canvas id="nodes"></canvas> -->
     <script type="text/javascript" src="assets/nodes.js"></script>
+    
     <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="http://p5js.sketchpad.cc/sp/pad/view/ro.COx$0Iy6rWpzsc/latest?"></script>
 	<script type="text/javascript"></script>
 	<script src="assets/index.js"></script> 
-    <script src="assets/game.js"></script> 
+    <script src="assets/pvp.js"></script> 
     <script>
         // Scroll Reveal
         const sr = ScrollReveal({

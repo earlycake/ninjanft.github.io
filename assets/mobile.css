@@ -294,6 +294,10 @@
     .styl{
         display: none;
     }
+
+    .pvp{
+        display: none;
+    }
   
 
 }

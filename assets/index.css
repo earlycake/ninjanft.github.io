@@ -314,10 +314,11 @@ body{
     }
 
     .ft a{
-        display: block;
+        display: inline-block;
         text-decoration: none;
         color: white;
         font-size: 25px;
+        margin-right: 10px;
     }
 
     .ft a:hover{
