@@ -298,6 +298,14 @@
     .pvp{
         display: none;
     }
+
+    .plyrinfo{
+        display: none;
+    }
+
+    #atkbtn{
+        display: none; 
+    }
   
 
 }
