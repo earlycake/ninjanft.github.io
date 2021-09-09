@@ -1,0 +1,23 @@
+.styl{
+    position: fixed;
+    z-index: 999999;
+    top: 650px;
+    background-color: rgb(221, 10, 10);
+    width: 60vw;
+    left: 20vw;
+    height: 130px;
+}
+
+.styl h1{
+    position: relative;
+    top: -20px
+}
+
+.styl p{
+    font-weight: bolder;
+}
+
+#p2{
+    position: relative;
+    top: -40px
+}

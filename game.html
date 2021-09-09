@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="height=device-height, 
+                      width=device-width, initial-scale=1.0, 
+                      minimum-scale=1.0, maximum-scale=1.0, 
+                      user-scalable=no, target-densitydpi=device-dpi">
+	<title>
+		NinjaNFT
+	</title>
+	<meta charset="UTF-8">
+    <link rel = "icon" href="assets/logo.png" type = "image/x-icon"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <link rel="stylesheet" href="assets/index.css">
+    <link rel="stylesheet" href="assets/mobile.css">
+    <link rel="stylesheet" href="assets/game.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body id="body">
+
+    <div class="topbar">
+        <a href="index.html" id="tb">
+            <img src="assets/logo.png" alt="">
+            <img id="tb-name" src="assets/name.png" alt="">
+        </a>
+
+        <a href="game.html" id="tb-pic">
+            <img id="tb-name" src="assets/play.png" alt="">
+        </a>
+    </div>
+
+    <div class="popup" id="popup">
+        
+        <a href="https://twitter.com/legendadaofc?s=08">Twitter</a>
+        
+        <a href="https://t.me/legendadaofficial">Telegram</a>
+        <img src="assets/logo.png"/>
+    </div>
+
+    <div class="styl" id="styl">
+        <p>Game</p>
+        <h1>COMING SOON</h1>
+        <p id="p2">Click ⬆⬇➡⬅ to move</p>
+    </div>
+    <canvas id="myCanvas" width="1300" height="700" style="border:1px solid #000000;" />   
+
+    <img id="testpic" src="assets/ninja.png" style="display: none;">
+    <img id="bg" src="assets/map2.png" style="display: none;">
+    
+    <!-- <canvas id="nodes"></canvas> -->
+    <script type="text/javascript" src="assets/nodes.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+	<script type="text/javascript"></script>
+	<script src="assets/index.js"></script> 
+    <script src="assets/game.js"></script> 
+    <script>
+        // Scroll Reveal
+        const sr = ScrollReveal({
+            origin: 'left',
+            distance: '30px',
+            duration: 2000,
+            reset: false
+        })
+
+        sr.reveal(`.vbox, #btnanim, .c-box, .container`, {
+            interval: 200
+        })
+    </script>
+
+</body>
+</html>
