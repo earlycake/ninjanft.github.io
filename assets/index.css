@@ -324,6 +324,8 @@ body{
         color: #df2b49;
     }
 
-
+    .gmobile{
+        display: none;
+    }
 
 }
