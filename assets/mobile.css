@@ -1,5 +1,9 @@
 
 @media only screen and (max-width : 720px) {
+    #myCanvas{
+        display: none;
+    }
+
     #bgm{
         position: fixed;
         top: 0;
@@ -81,211 +85,215 @@
         left: 9vw;
     }
 
-    .l-cntn{
+    .cntn{
+        position: relative;
+        top: 70px;
+        width: 90vw;
+        left: 3vw;
+    }
+
+    .l-cntn img{
+        width: 100%;
+        animation: mymove infinite;
+        animation-duration: 3.5s;
+    }
+    
+    @keyframes mymove {
+        /* from {top: 0px;}
+        to {bottom: 50px;} */
+        0%   {transform: translate3d(0,0,0);}
+        40%  {transform: translate3d(0,15%,0);}
+    }
+
+    #cntn-btn{
+        padding: 10px 60px;
+        background-color: #df2b49;
+        text-decoration: none;
+        position: relative;
+        top: 30px;
+        text-align: center;
+        font-weight: bolder;
+        color: white;
+    }
+
+    #cntn-btn:hover{
+        background-color: #E94560;
+        border: transparent;
+        color: white;
+        box-shadow: 1px 1px 10px #20202077;
+    }
+
+    .buyon{
+        position: relative;
+        top: 160px;
+        width: 90vw;
+        left: 3vw; 
+    }
+
+    .buyon img{
+        width: 100%;
+    }
+
+    .tokenomic{
+        width: 90vw;
+        position: relative;
+        left: 3vw;
+        top: 180px;
+    }
+
+    .tkc-box{
+        display: inline-table;
+        width: 88%;
+        height: 200px;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        padding: 20px;
+        background-color: #FF2442;
+        color: white;
+    }
+
+    #tkc-box:hover{
+        box-shadow: 1px 1px 10px #20202077;
+        position: relative;
+        top: -5px
+    }
+
+    .gamesoon{
+        width: 90vw;
+        position: relative;
+        left: 3vw;
+        top: 230px;
+    }
+
+    .gamesoon img{
+        width: 100%;
+    }
+
+    #soon{
         display: none;
     }
 
-   #hm-logo{
-       display: none;
-   }
-
-    .l-cntn-m{
+    .store{
+        width: 90vw;
         position: relative;
-        z-index: 999;
-        width: 80vw;
-        left: 8vw;
-        top: 130px;
-    }
-
-    .l-cntn-m a{
-        text-decoration: none;
-        position: relative;
-        color: #f6ce2e;
-        background-color: #9b1d1e;
-        font-weight: bolder;
-        padding: 10px 20px;
-        top: 20px;
-        display: block;
-        margin-bottom: 20px;
-    }
-
-    .l-cntn-m a:hover{
-        background-color: black;
-        color: white
-    }
-
-    .l-cntn-m h1{
-        font-size: 25px;
-        position: relative;
-    }
-
-    .l-cntn-m img{
-        width: 80%;
-        position: relative;
-        top: -50px;
-    }
-
-
-
-    .buy-on{
-        position: relative;
-        z-index: 999;
-        width: 80vw;
-        left: 8vw;
-        top: 200px;
-    }
-
-    .buy-on a{
-        display: block;
-        margin-bottom: 20px;
+        left: 3vw;
+        top: 300px;
+        height: 600px;
         text-align: left;
     }
 
-    .buy-on img{
-        height: 40px;
-    }
-
-    #hm-cake{
-        width: 60vw;
+    .str{
         position: relative;
-        top: 40px;
-        z-index: 9999999;
+        width: 100%;
+        left: -10px;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        padding-left: 10px;
+        height: 500px;
     }
 
+    .str-box{
+        position: relative;
+        display: inline-table;
+        height: 100%;
+        background-color: white;
+        width: 300px;
+        color: black;
+        margin-right: 20px;
+        padding: 15px;
+    }
+
+    .str-box img{
+        width: 100%;
+    }
+
+    .str-box h1{
+        position: relative;
+        top: -30px;
+        left: 20px
+    }
+
+    #el{
+        position: relative;
+        top: -50px; 
+        left: 20px
+    }
+
+    #status{
+        position: absolute;
+        top: 5px;
+        left: 35px;
+        font-weight: bolder;
+    }
+
+    .str-box a{
+        text-decoration: none;
+        padding: 10px 60px;
+        color: white;
+        background-color: #df2b49;
+        position: relative;
+        top: -30px;
+        left: 50px;
+    }
 
     .about{
         position: relative;
-        z-index: 999;
+        width: 90vw;
+        left: 3px;
+        top: 300px;
+        background-color: transparent;
+        height: 700px;
+    }
+
+    .footer{
+        position: relative;
+        top: 350px;
+        height: 700px;
         width: 100vw;
         left: -10px;
-        top: 300px;
-        padding-bottom: 100px;
-        background-color: #FFF8E5;
+        background-color: #1A1A2E;
     }
 
-    .abt{
+    .ft{
+        width: 90%;
+        margin-right: 20px;
+        display: inline-block;
         position: relative;
-        width:80%;
-        left: 10%;
-        top: 50px;
-    }
-
-    #hm-chart{
-        width: 60vw;
-        position: relative;
-        top: 200px
-    }
-
-    .visi{
-        position: relative;
-        z-index: 999;
-        width: 90vw;
-        left: 4vw;
         top: 70px;
+        left: 4%;
+        text-align: left;
     }
 
-    .vbox{
-        position: relative;
-        display: inline-block;
+    .ft img{
         width: 80%;
-        background-color: #9b1d1e;
-        color: #f6ce2e;
-        padding: 20px;
-        margin-bottom: 15px;
-        box-shadow: 1px 1px 10px #20202077;
     }
 
-    .cardano{
-        position: relative;
-        z-index: 999;
-        width: 100vw;
-        left: -8px;
-        top: 280px;
-        background-color: #E05D5D;
-        color: #f6ce2e;
-        height: 1100px;
-    }
-
-    .c-l{
-        position: relative;
-        width: 80%;
-        left: 9%;
-        top: 30px;
-    }
-
-    .c-r img{
-        position: relative;
-        width: 80%;
-        top: 90px;
-    }
-
-    .c-box{
-        background-color: #9b1d1e;
-        padding: 10px;
-        color: #f6ce2e;
-        margin-bottom: 20px;
-        padding-left: 20px;
-        box-shadow: 1px 1px 10px #20202077;
-        position: relative;
-        top: 20px;
-    }
-
-    .roadmap{
-        position: relative;
-        z-index: 999;
-        width: 100vw;
-        left: -9px;
-        top: 280px;
-        background-color: #FFB344;
-        padding-top: 40px;
-        padding-bottom: 40px;
-        margin-bottom: -260px;
-    }
-
-    .roadmap p{
-        font-size: 25px;
-        margin-bottom: 0;
-    }
-
-    .roadmap img{
-        height: 25vh;
-    }
-
-    .join{
-        position: relative;
-        top: 540px;
-        width: 100vw;
-        left: -9px;
-        height: 700px;
-        z-index: 9999999;
-        background-color: #E05D5D;
-        padding-top: 50px;
-        color: #f6ce2e;
-    }
-
-    .join img{
-        width: 60vw;
-    }
-
-    .join a{
+    .ft a{
+        display: block;
         text-decoration: none;
-        display: inline-block;
-        font-size: 60px;
-        margin-right: 40px;
-        color: #f6ce2e;
+        color: white;
+        font-size: 25px;
+    }
+
+    .ft a:hover{
+        color: #df2b49;
+    }
+
+    #play{
+        display: none;
+    }
+
+    .gmobile{
+        border: 2px solid #1A1A2E;
         position: relative;
-        left: 4vw;
-        top: 20px;
+        top: 100px;
     }
 
-    #cr{
-        position: absolute;
-        bottom: 40px;
-        left: 5vw;
-        color: black;
+    .styl{
+        display: none;
     }
-
-    
   
 
 }
