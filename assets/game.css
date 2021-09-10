@@ -1,7 +1,7 @@
 .styl{
     position: absolute;
     z-index: 999999;
-    top: 700px;
+    top: 600px;
     background-color: rgba(0, 0, 0, 0.418);
     width: 60vw;
     left: 20vw;
@@ -25,7 +25,7 @@
 .pvp{
     position: absolute;
     z-index: 999999;
-    top: 680px;
+    top: 580px;
     width: 100px;
     left: 8vw;
     height: 50px;
@@ -47,7 +47,7 @@
 #atkbtn{
     position: absolute;
     z-index: 999999;
-    top: 700px;
+    top: 620px;
     width: 100px;
     left: 8vw;
     height: 100px;
@@ -64,7 +64,7 @@
     font-family: 'Glory', sans-serif;
     position: absolute;
     z-index: 999999;
-    width: 1300px;
+    width: 1200px;
     left: 50px;
     top: 100px;
 }
@@ -83,7 +83,7 @@
 
 .r-info{
     position: absolute;
-    right: 50px;
+    right: 80px;
     text-align: right;
 }
 

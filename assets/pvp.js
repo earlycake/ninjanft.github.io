@@ -1,7 +1,7 @@
 var xplayer = 200;
-var yplayer = 460;
+var yplayer = 400;
 var xnpc = 950;
-var ynpc = 460;
+var ynpc = 400;
 var speed = 50; // make this number smaller to move faster
 var leftPointer, rightPointer,upPointer,downPointer;
 var c, ctx, img;
@@ -92,7 +92,7 @@ function npcattack(){
                             if (e.keyCode == 32) {
                                 // CODE THAT STARTS LEFT IMAGE MOVEMENT GOES HERE.
                                 console.log("hi")
-                                window.open("index.html", target="_self");
+                                window.open("game.html", target="_self");
                             }
                            
                         }, true);
